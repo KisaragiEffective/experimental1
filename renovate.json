@@ -5,5 +5,11 @@
   "forkProcessing": "enabled",
   "prHourlyLimit": 100,
   "prConcurrentLimit": 100,
-  "ignorePresets": [":prHourlyLimit2"]
+  "ignorePresets": [":prHourlyLimit2"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["jsdom"],
+      "allowedVersions": "< 21.0.0"
+    }
+  ]
 }

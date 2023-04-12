@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsdom": ">=19.0.0 <21.0.0"
+    "jsdom": "^19.0.0"
   }
 }
