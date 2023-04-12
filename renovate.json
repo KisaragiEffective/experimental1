@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "forkProcessing": "enabled",
+  "prHourlyLimit": 100,
+  "prConcurrentLimit": 100,
+  "ignorePresets": [":prHourlyLimit2"]
+}
