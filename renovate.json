@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["jsdom"],
-      "allowedVersions": "< 21.0.0"
+      "allowedVersions": "<= 20.0.0"
     }
   ]
 }
